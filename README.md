@@ -138,6 +138,7 @@ def view_all_data():
 The `view_all_data()` function retrieves comprehensive information stored in the 'taskstable' table of the SQLite database. It begins by establishing a connection to the database and initializing a cursor to execute SQL commands. The function then issues a SELECT query to fetch all rows from the table, captures the returned data as a list of tuples, and subsequently closes the database connection to maintain data integrity. Each tuple within the resulting list represents a distinct row from the 'taskstable', encompassing details such as task descriptions, statuses (e.g., "ToDo", "Doing", "Done"), and due dates. By encapsulating this retrieval process, the function enables users to seamlessly access and review their entire collection of tasks directly within the Streamlit application interface.
 
 ![alt text](read.png)
+
 <br>
 
 ![alt text](image4.png)
