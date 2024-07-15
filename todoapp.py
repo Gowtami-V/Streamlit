@@ -13,7 +13,7 @@ HTML_BANNER = """
     """
 def main():
 	st.title ("TODO App with streamlit")
-	menu = ["Create","Read","Update","Delete","About"]
+	menu = ["Create","Read","Update","Delete"]
 	choice = st.sidebar.selectbox("Menu",menu)
 	create_table()
 	if choice == "Create":
@@ -106,11 +106,5 @@ def main():
 			clean_df = pd.DataFrame(result,columns=["Task","Status","Date"])
 			st.dataframe(clean_df)
 			
-	else:
-		st.subheader("About ToDo List App")
-		st.info("Built with Streamlit")
-		st.info("Jesus Saves @JCharisTech")
-		st.text("Jesse E.Agbe(JCharis)")
-                        
 if __name__ == '__main__':
 	main()
