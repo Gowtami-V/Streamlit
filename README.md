@@ -154,7 +154,7 @@ The `view_all_data()` function retrieves comprehensive information stored in the
 
 <br>
 
-![alt text](image4.png)
+![alt text](image6.png)
 <br>
 <br>
 
